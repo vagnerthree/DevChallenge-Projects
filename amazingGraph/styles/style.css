@@ -1,0 +1,169 @@
+:root{
+    --color-orange:#D2872C;
+    --color-gray: #766F68;
+}
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo{
+    color: var(--color-orange);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+}
+
+img{
+    max-width: 60%;
+}
+
+nav a{
+    margin-right: 20px ;
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--color-gray);
+    font-family: roboto, sans-serif;
+    font-weight: bolder;
+}
+
+main{
+    display: flex;
+    color: var(--color-gray);
+    font-family: roboto, sans-serif;
+    margin-top: 40px;
+}
+
+.content{
+    position: relative;
+    left: 170px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+p{
+    width: 80%;
+    font-size: 24.5px;
+    margin-bottom: 45px;
+}
+
+.botao{
+    height: 60px;
+    width: 55%;
+    background-color: var(--color-orange);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#menu{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    
+    #menu{
+        display: block;
+        position: absolute;
+        right: 30px;
+        border: none;
+        background-color: unset;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 30px;
+    }
+
+    .bar{
+        background-color: var(--color-gray);
+        height: 4px;
+        width: 30px;
+        margin-top: 4px;
+    }
+
+    #nav{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 120px;
+        background-color: var(--color-orange);
+        height: 0;
+        left: 0;
+        text-align: center;
+        transition: 0.5s;
+        overflow-y: hidden;
+    }
+
+    #nav a{
+        color: white;
+        margin-top: 30px;
+        border-bottom: 1px white solid;
+        padding-bottom: 5px;
+        display: block;
+        
+    }
+
+    #nav.ativo{
+        visibility: visible;
+        height: calc(100vh - 120px);
+    }
+
+    header{
+        padding: 0 30px;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        position: static;
+        text-align: center;    
+    }
+
+    h1{
+        font-size: 40px;
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    p{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+   
+    img{
+        margin: 0 auto;
+    }
+    
+    .botao{
+        margin-top: 30px;
+    }
+}
