@@ -1,0 +1,127 @@
+:root {
+    font-size: 62.5%;
+    --azul: #4E5BEE;
+    --vermelho: #FF5757;
+    --cinza: #F8F8F8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    font-size: 1.6rem;
+    color: var(--cinza);
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.content {
+    display: flex;
+
+}
+
+.wrapper {
+    width: 30rem;
+    text-align: center;
+}
+
+.form {
+    background-color: var(--azul);
+    min-width: 60rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.form img {
+    max-width: 17.7rem;
+    margin-bottom: 9.5rem;
+    margin-inline: auto;
+}
+
+.input {
+    width: 100%;
+    height: 5rem;
+    border: 2px solid #FFF;
+    border-radius: 5rem;
+    margin-bottom: 1.8rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.input .material-icons {
+    margin-right: 1.8rem;
+    margin-left: .5rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.form button {
+    background-color: var(--cinza);
+    color: #504F60;
+    border: 0;
+    width: 100%;
+    padding: 1.5rem 12.5rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+
+.form button:hover {
+    background-color: var(--azul);
+    outline: 2px solid #FFF;
+    color: #FFF;
+}
+
+.problem {
+    margin-top: 13rem;
+}
+
+.interview img {
+    width: 100%;
+    height: 99%;
+}
+
+.error {
+    border: 2px solid var(--vermelho);
+}
+
+.error .material-icons {
+    color: var(--vermelho);
+}
+
+@media only screen and (max-width: 1024px) {
+    .form {
+        min-width: 100vw;
+        border-radius: 2rem;
+    }
+}
+
+@media only screen and (min-width: 2024px) {
+    .form {
+        min-width: 50vw;
+    }
+
+    .interview {
+        width: 50vw;
+    }
+
+    .wrapper {
+        width: 50%;
+    }
+}
