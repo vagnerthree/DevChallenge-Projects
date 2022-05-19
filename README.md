@@ -31,7 +31,7 @@ Challenges/Projects from: https://devchallenge.com.br/challenges
 
 ## Codar ✨
 <img src="./codar/images/desktop.png" width="580">
-<img src="./codar/images/phone.png" width="580">
+<img src="./codar/images/phone.png" width="480">
 
 <h3>Techs</h3>
 <ul>
@@ -46,7 +46,7 @@ Challenges/Projects from: https://devchallenge.com.br/challenges
 
 ## Work Plin ✨
 <img src="./workPlin/images/desktop.png" width="580">
-<img src="./workPlin/images/phone.png" width="580">
+<img src="./workPlin/images/phone.png" width="480">
 
 <h3>Techs</h3>
 <ul>
@@ -61,9 +61,10 @@ Challenges/Projects from: https://devchallenge.com.br/challenges
 <hr>
 <br>
 
+
 ## Amazing Graph ✨
 <img src="./amazingGraph/images/desktop.png" width="580">
-<img src="./amazingGraph/images/phone.png" width="580">
+<img src="./amazingGraph/images/phone.png" width="380">
 
 <h3>Techs</h3>
 <ul>
@@ -78,6 +79,23 @@ Challenges/Projects from: https://devchallenge.com.br/challenges
 <hr>
 <br>
 
+## Grab ✨
+<img src="./grab/images/desktop.jpg" width="580">
+<img src="./grab/images/phone.jpg" width="240">
+
+<h3>Techs</h3>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+   <li>Javascript</li>
+</ul>
+
+<h2> Visualizar a Página:
+🌐<a href="https://vagnerthree-grab.netlify.app/">Grab Page</a>
+</h2>
+
+<hr>
+<br>
 ## Profile Component ✨
 
 <img src="./profileComponent/images/desktop.png" width="580">
